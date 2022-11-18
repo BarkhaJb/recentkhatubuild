@@ -83,6 +83,7 @@ const Recommend = ({
                             : song.image
                         }
                         className="roimg"
+                        alt="khatuwale recommends"
                       ></img>
                     </Link>
                   </div>
