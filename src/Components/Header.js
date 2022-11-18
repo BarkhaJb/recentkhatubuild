@@ -70,7 +70,7 @@ const Menu = ({ setCurrentArtist, searchAPI, selectStyle, setSelectStyle, setTra
           expanded={expanded}
           className="navbar navbar-expand-lg navbar-light bg-light"
         >
-          <div className="header-left">
+          <div className="header-left">                                                                                                                                                         
             <div className="headre-area">
               <div className="logo-n-toggle">
                 <div className="logo">
@@ -79,6 +79,7 @@ const Menu = ({ setCurrentArtist, searchAPI, selectStyle, setSelectStyle, setTra
                     <img
                       onClick={() => handleScroll()}
                       src={logo}
+                      alt="khatulogo"
                       className="logoimg"
                     />
                   </Link>
@@ -99,10 +100,11 @@ const Menu = ({ setCurrentArtist, searchAPI, selectStyle, setSelectStyle, setTra
                 </button>
               </div>
             </div>
+            <div className="navtoggle">
             <Navbar.Toggle
               aria-controls="responsive-na"
               onClick={() => setExpanded(expanded ? false : "expanded")}
-            />
+            /></div>
             <div className="menu">
               <Navbar.Collapse>
                 <Nav onClick={() => setExpanded(false)}>
