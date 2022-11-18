@@ -1663,6 +1663,7 @@ a.searchback {
                 font-size: 20px;
             }
         }
+
         @media only screen and (max-width :535px){
             .searchimg{
                max-width: 187px;
@@ -1718,7 +1719,34 @@ a.searchback {
                 width: 300px !important; /* Bar width+1px */
                 padding: 0 16px 0 0;
             }
-        }
+            /* .navbar-search{
+                display:none;
+            }
+            .navbar-toggler{
+                top: 16px !important;
+            }
+            .header-left{
+                display: flex;
+            }
+            .menu{
+                width: 100%;
+                background: white;
+                position: absolute;
+                top:70px
+            }
+            .logo-n-toggle{
+                text-align: left;
+            }
+            button.navbar-toggler.collapsed ,.navbar-toggler{
+                padding: 4px 8px;
+            }
+            .logoimg{
+                max-width: 200px;
+            }
+            .topMargin {
+                margin-top: 94px;
+        } */
+    }
     
     
         @media only screen and (max-width :474px){
