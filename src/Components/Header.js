@@ -86,7 +86,7 @@ const Menu = ({ setCurrentArtist, searchAPI, selectStyle, setSelectStyle, setTra
                 </div>
               </div>
 
-              <div className="form-inline my-2 my-lg-0 navbar-search">
+              {/* <div className="form-inline my-2 my-lg-0 navbar-search">
                 <input
                   class="form-control mr-sm-2"
                   type="search"
@@ -98,7 +98,7 @@ const Menu = ({ setCurrentArtist, searchAPI, selectStyle, setSelectStyle, setTra
                   <i class="fa fa-search" aria-hidden="true"></i>
                   <p className="searchfont">Search</p>
                 </button>
-              </div>
+              </div> */}
             </div>
             <div className="navtoggle">
             <Navbar.Toggle
