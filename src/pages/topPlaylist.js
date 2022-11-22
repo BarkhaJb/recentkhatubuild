@@ -3,6 +3,8 @@ import { Link, Navigate } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
 import { useLocation } from "react-router-dom";
 import bgimg from "../Components/assets/images/play-bg.gif";
+import { Helmet } from "react-helmet";
+
 
 const TopPlaylist = ({
   setMusicTracks,
@@ -60,6 +62,10 @@ const TopPlaylist = ({
 
   return (
     <div className="trend">
+       <Helmet>
+        <title>{currentArtist?.title}</title>
+        <meta data-react-helmet="true" name="description" content="khatuwaleshyam.com- Listen  latest MP3 Bhajans online.New Trending Bhajans , New Releases Top Search Artist Upcoming events Listen Live Radio "/>
+      </Helmet>
       <div className="trend-area">
         <div className="routes">
           <h6 className="rts-rts">

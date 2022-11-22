@@ -3,6 +3,7 @@ import tr_img1 from "../Components/assets/images/trending1.png";
 import { Link } from "react-router-dom";
 import { useLocation } from "react-router-dom";
 import bgimg from "../Components/assets/images/play-bg.gif";
+import {Helmet} from "react-helmet";
 
 const Trend = ({
   setMusicTracks,
@@ -48,6 +49,11 @@ const Trend = ({
 
   return (
     <div className="trend">
+       <Helmet>
+        <title>Trending Bhajans Of Khatuwale Baba</title>
+        <meta data-react-helmet="true" name="description" content="khatuwaleshyam.com- Listen  latest MP3 Bhajans online.New Trending Bhajans , New Releases Top Search Artist Upcoming events Listen Live Radio "/>
+      
+      </Helmet>
       <div className="trend-area">
         <div className="routes">
           <h6 className="rts-rts">

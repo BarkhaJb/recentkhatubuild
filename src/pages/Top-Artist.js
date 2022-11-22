@@ -4,6 +4,8 @@ import "react-multi-carousel/lib/styles.css";
 import { useNavigate } from "react-router-dom";
 import { useLocation } from "react-router-dom";
 import bgimg from "../Components/assets/images/play-bg.gif";
+import {Helmet} from "react-helmet";
+
 
 const Artist = ({
   releaseSong,
@@ -80,6 +82,10 @@ const Artist = ({
 
   return (
     <div className="trend">
+       <Helmet>
+        <title>Listen Top Bhajans By Top Artist Only On khatuwaleshyam.com</title>
+        
+      </Helmet>
       <div className="trend-area">
         <div className="routes">
           <h6 className="rts-rts">

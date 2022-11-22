@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import radioimg from "../Components/assets/images/radioimg.png";
+import { Helmet } from "react-helmet";
 
 const Radio = ({
   setMusicTracks,
@@ -29,6 +30,10 @@ const Radio = ({
 
   return (
     <div className="araeaaaa">
+       <Helmet>
+        <title>Listen All MP3 Bhajans On Khatuwale Radio | khatuwale shyam baba ke bhajans </title>
+        <meta data-react-helmet="true" name="description" content="khatuwaleshyam.com- Listen  latest MP3 Bhajans online.New Trending Bhajans , New Releases Top Search Artist Upcoming events Listen Live Radio "/>
+      </Helmet>
       <h6 className="radio-rts-rts">
         <h1 className="radio-abtpara">
           you are now listening to shri khatuShyam non-stop radio

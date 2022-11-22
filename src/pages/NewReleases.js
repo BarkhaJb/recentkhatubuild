@@ -3,6 +3,7 @@ import release1 from "../Components/assets/images/releasehead.png";
 import bgimg from "../Components/assets/images/play-bg.gif";
 import { Link } from "react-router-dom";
 import { useLocation } from "react-router-dom";
+import { Helmet } from "react-helmet";
 
 const NewReleases = ({
   setMusicTracks,
@@ -48,6 +49,10 @@ const NewReleases = ({
   };
   return (
     <div className="trend">
+      <Helmet>
+        <title>New Releases Of Baba Shyam: Sunne Wala Shyam Sunna Wala Shyam  </title>
+        <meta data-react-helmet="true" name="description" content="khatuwaleshyam.com- Listen  latest MP3 Bhajans online.New Trending Bhajans , New Releases Top Search Artist Upcoming events Listen Live Radio "/>
+      </Helmet>
       <div className="trend-area">
         <div className="routes">
           <h6 className="rts-rts">
