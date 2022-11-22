@@ -875,6 +875,7 @@ button.rhap_button-clear.rhap_main-controls-button.rhap_play-pause-button path{
 
 }
 .trnd-img-about{
+    text-transform: capitalize;
     margin-top: 76px;
 }
 
