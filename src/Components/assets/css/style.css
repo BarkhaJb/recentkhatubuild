@@ -250,6 +250,8 @@ ul{
 .dropdown:hover .dropdown-menu {
     display: block;
     margin-top: 0;
+    width: 100%;
+    min-width: 200px;
    
  }
  

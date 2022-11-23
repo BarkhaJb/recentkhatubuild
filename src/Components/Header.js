@@ -107,9 +107,9 @@ const Menu = ({ setCurrentArtist, searchAPI, selectStyle, setSelectStyle, setTra
             /></div>
             <div className="menu">
               <Navbar.Collapse>
-                <Nav onClick={() => setExpanded(false)}>
+                <Nav>
                   <ul className="navbar-nav mr-auto">
-                    <li className="nav-item">
+                    <li className="nav-item" onClick={() => setExpanded(false)}>
                       <NavLink
                         onClick={() => handleScroll()}
                         to="/"
@@ -119,7 +119,7 @@ const Menu = ({ setCurrentArtist, searchAPI, selectStyle, setSelectStyle, setTra
                         Home
                       </NavLink>
                     </li>
-                    <li className="nav-item dropdown">
+                    <li className="nav-item dropdown" >
                       <NavLink
                         to=""
                         className="nav-link dropdown-toggle"
@@ -150,7 +150,7 @@ const Menu = ({ setCurrentArtist, searchAPI, selectStyle, setSelectStyle, setTra
                       </div>
                     </li>
 
-                    <li className="nav-item">
+                    <li className="nav-item" onClick={() => setExpanded(false)}>
                       <NavLink
                         onClick={() => Autoplayon()}
                         to="/Trending"
@@ -160,7 +160,7 @@ const Menu = ({ setCurrentArtist, searchAPI, selectStyle, setSelectStyle, setTra
                         Trending Bhajans
                       </NavLink>
                     </li>
-                    <li className="nav-item">
+                    <li className="nav-item" onClick={() => setExpanded(false)}>
                       <NavLink
                         onClick={() => handleScroll()}
                         to="/Allbhajan"
@@ -170,7 +170,7 @@ const Menu = ({ setCurrentArtist, searchAPI, selectStyle, setSelectStyle, setTra
                         All Bhajans
                       </NavLink>
                     </li>
-                    <li className="nav-item">
+                    <li className="nav-item" onClick={() => setExpanded(false)}>
                       <NavLink
                         onClick={() =>Autoplayon()}
                         to="/newReleases"
@@ -180,7 +180,7 @@ const Menu = ({ setCurrentArtist, searchAPI, selectStyle, setSelectStyle, setTra
                       </NavLink>
                     </li>
 
-                    <li className="nav-item sound">
+                    <li className="nav-item sound" onClick={() => setExpanded(false)}>
                       <NavLink
                         onClick={() => handleScroll()}
                         to="/radio"
